@@ -17,6 +17,8 @@
 		E49C4AA42ABF4D0900CF7970 /* HerbHueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4AA32ABF4D0900CF7970 /* HerbHueTests.swift */; };
 		E49C4AAE2ABF4D0900CF7970 /* HerbHueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4AAD2ABF4D0900CF7970 /* HerbHueUITests.swift */; };
 		E49C4AB02ABF4D0900CF7970 /* HerbHueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4AAF2ABF4D0900CF7970 /* HerbHueUITestsLaunchTests.swift */; };
+		E49C4AC62ABF4FCB00CF7970 /* Terpene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4AC52ABF4FCB00CF7970 /* Terpene.swift */; };
+		E49C4AC82ABF50BD00CF7970 /* TerpeneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C4AC72ABF50BD00CF7970 /* TerpeneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		E49C4AA92ABF4D0900CF7970 /* HerbHueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerbHueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49C4AAD2ABF4D0900CF7970 /* HerbHueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbHueUITests.swift; sourceTree = "<group>"; };
 		E49C4AAF2ABF4D0900CF7970 /* HerbHueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbHueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E49C4AC52ABF4FCB00CF7970 /* Terpene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terpene.swift; sourceTree = "<group>"; };
+		E49C4AC72ABF50BD00CF7970 /* TerpeneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerpeneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,14 @@
 				E49C4A882ABF4D0500CF7970 /* AppDelegate.swift */,
 				E49C4A8A2ABF4D0500CF7970 /* SceneDelegate.swift */,
 				E49C4A8C2ABF4D0500CF7970 /* ViewController.swift */,
+				E49C4ABC2ABF4E1F00CF7970 /* Models */,
+				E49C4ABF2ABF4E5700CF7970 /* Views */,
+				E49C4ABD2ABF4E2F00CF7970 /* Controllers */,
+				E49C4AC02ABF4EEB00CF7970 /* Utils */,
+				E49C4AC12ABF4F0E00CF7970 /* Storyboards */,
+				E49C4AC22ABF4F2100CF7970 /* Resources */,
+				E49C4AC32ABF4F3000CF7970 /* Helpers */,
+				E49C4AC42ABF4F9300CF7970 /* Services */,
 				E49C4A8E2ABF4D0500CF7970 /* Main.storyboard */,
 				E49C4A942ABF4D0900CF7970 /* Assets.xcassets */,
 				E49C4A962ABF4D0900CF7970 /* LaunchScreen.storyboard */,
@@ -130,6 +142,64 @@
 				E49C4AAF2ABF4D0900CF7970 /* HerbHueUITestsLaunchTests.swift */,
 			);
 			path = HerbHueUITests;
+			sourceTree = "<group>";
+		};
+		E49C4ABC2ABF4E1F00CF7970 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E49C4AC52ABF4FCB00CF7970 /* Terpene.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E49C4ABD2ABF4E2F00CF7970 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E49C4ABF2ABF4E5700CF7970 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E49C4AC72ABF50BD00CF7970 /* TerpeneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E49C4AC02ABF4EEB00CF7970 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E49C4AC12ABF4F0E00CF7970 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E49C4AC22ABF4F2100CF7970 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E49C4AC32ABF4F3000CF7970 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E49C4AC42ABF4F9300CF7970 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +335,9 @@
 			files = (
 				E49C4A8D2ABF4D0500CF7970 /* ViewController.swift in Sources */,
 				E49C4A892ABF4D0500CF7970 /* AppDelegate.swift in Sources */,
+				E49C4AC62ABF4FCB00CF7970 /* Terpene.swift in Sources */,
 				E49C4A8B2ABF4D0500CF7970 /* SceneDelegate.swift in Sources */,
+				E49C4AC82ABF50BD00CF7970 /* TerpeneView.swift in Sources */,
 				E49C4A932ABF4D0500CF7970 /* HerbHue.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = HerbHue/HerbHue.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B8FRDZF569;
@@ -464,6 +537,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbHue.HerbHue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,6 +550,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = HerbHue/HerbHue.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B8FRDZF569;
@@ -493,6 +568,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Github.HerbHue.HerbHue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
